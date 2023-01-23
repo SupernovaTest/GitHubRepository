@@ -2,4 +2,5 @@
 <Root Version="4.5.0.0">
   <Variant Code="Var1" Name="Var1Name" Description="" IsReleased="False" />
   <Variant Code="Var2" Name="Var2Name" Description="" IsReleased="False" />
+  <Variant Code="Var_20230123" Name="Var_20230123" Description="" IsReleased="False" />
 </Root>
