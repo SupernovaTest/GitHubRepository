@@ -1,69 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Root CalibrationMirroringEnabled="False" CalibrationMirroringPath="&lt;Type Your Mirroring Path Here&gt;" Version="4.5.0.0">
-  <Configuration>
-    <Resource UUTResourceId="ProjectResource" Class="Communication" Direction="Mixed" Type="RS232" Calibration="None" IsAuxiliary="False" />
-  </Configuration>
-  <Socket Socket="-1" />
-  <Socket Socket="1">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="2">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="3">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="4">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="5">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="6">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="7">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="8">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="9">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="10">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="11">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="12">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="13">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="14">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="15">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="16">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="17">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="18">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="19">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
-  <Socket Socket="20">
-    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
-  </Socket>
+<Root CalibrationMirroringEnabled="False" CalibrationMirroringPath="&lt;Digitare qui il percorso di mirroring&gt;" Version="4.5.0.0">
   <Socket Socket="21">
     <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
   </Socket>
@@ -603,5 +539,92 @@
   </Socket>
   <Socket Socket="200">
     <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Configuration>
+    <Resource UUTResourceId="ProjectResource" Class="Digital" Direction="Measure" Type="DAQMx" Calibration="None" IsAuxiliary="False">
+      <ResourceParameter Name="Logic" Value="Active High" />
+    </Resource>
+    <Resource UUTResourceId="Resource_20230123" Class="Digital" Direction="Measure" Type="AllDaq" Calibration="None" IsAuxiliary="False" />
+  </Configuration>
+  <Socket Socket="-1" />
+  <Socket Socket="1">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="2">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="3">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="4">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="5">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="6">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="7">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="8">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="9">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="10">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="11">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="12">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="13">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="14">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="15">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="16">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="17">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="18">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="19">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
+  </Socket>
+  <Socket Socket="20">
+    <Resource UUTResourceId="ProjectResource" StationResourceId="&lt;Select...&gt;" />
+    <Resource UUTResourceId="Resource_20230123" StationResourceId="&lt;Select...&gt;" />
   </Socket>
 </Root>
